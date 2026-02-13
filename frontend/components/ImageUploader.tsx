@@ -27,7 +27,7 @@ export default function ImageUploader() {
     <div className="flex flex-col gap-4 max-w-md">
       <input
         type="file"
-        accept="image/*"
+        accept="image/png, image/jpg"
         onChange={(e) =>
           setFile(e.target.files?.[0] || null)
         }
